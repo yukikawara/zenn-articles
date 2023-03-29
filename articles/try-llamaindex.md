@@ -1,9 +1,10 @@
 ---
-title: "LlamaIndex で遊んでみる"
+title: "LlamaIndex で ChatGPT に専門知識を組み込んでみた"
 emoji: "🦙"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["OpenAI", "ChatGPT", "LlamaIndex"]
 published: true
+publication_name: "fusic"
 ---
 
 こんにちは、初めましての方は初めまして。株式会社 Fusic の瓦です。春ですね。
