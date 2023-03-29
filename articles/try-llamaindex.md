@@ -3,7 +3,7 @@ title: "LlamaIndex で遊んでみる"
 emoji: "🦙"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["OpenAI", "ChatGPT", "LlamaIndex"]
-published: false
+published: true
 ---
 
 こんにちは、初めましての方は初めまして。株式会社 Fusic の瓦です。春ですね。
