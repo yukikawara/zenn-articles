@@ -4,6 +4,7 @@ emoji: "🦙"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["OpenAI", "ChatGPT", "LlamaIndex"]
 published: true
+publication_name: "fusic"
 ---
 
 こんにちは、初めましての方は初めまして。株式会社 Fusic で機械学習エンジニアをしている瓦です。最近は花粉との戦いで連日連夜盛り上がっています。
