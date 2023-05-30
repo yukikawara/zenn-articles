@@ -60,9 +60,9 @@ ns-train nerfacto --data data/cake
 
 実行すると訓練が進んでいく様子が出力されると思います。レンダリング結果を見れるリンクも表示されると思うので、ブラウザで確認してみます。
 
-https://github.com/yukikawara/zenn-articles/tree/main/images/try-nerfstudio/cake1.gif
+https://github.com/yukikawara/zenn-articles/tree/main/movies/try-nerfstudio/cake1.gif
 
-https://github.com/yukikawara/zenn-articles/tree/main/images/try-nerfstudio/cake2.gif
+https://github.com/yukikawara/zenn-articles/tree/main/movies/try-nerfstudio/cake2.gif
 
 GIF なので解像度がかなり粗いですが、ケーキの三次元形状が復元できていることが分かります。右の設定で解像度の変更も行えるので、より綺麗な画像をレンダリングしたり、さらには depth 画像の出力も行うことができ、レンダリングソフトがかなり使いやすいです。さらに EXPORT では点群とメッシュデータの出力も行えます。
 
@@ -82,7 +82,7 @@ o3d.visualization.draw_geometries([pcd])
 
 可視化には [open3d](http://www.open3d.org/docs/release/index.html) というライブラリを使用しました。コードは[詳解　3次元点群処理　Pythonによる基礎アルゴリズムの実装](https://www.kspub.co.jp/book/detail/5293430.html)という本のコードを参考にしました。少し話はそれますが、この本では点群の扱い方（ファイルフォーマットなど）や点群データの特徴量の抽出方法、二つの点群データが存在する場合の位置合わせの方法など、面白いトピックがコードも交えてわかりやすく説明されているので、興味がある方はぜひ買ってみて損はないと思います。
 
-https://github.com/yukikawara/zenn-articles/tree/main/images/try-nerfstudio/cake_point.gif
+https://github.com/yukikawara/zenn-articles/tree/main/movies/try-nerfstudio/cake_point.gif
 
 可視化してみた結果が上の GIF になります。ちょっと余計な部分の点群もありますが、ケーキの形の点群が表示されていることが分かります。
 
